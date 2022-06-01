@@ -1,7 +1,7 @@
 {
   "name": "walletnode",
   "version": "0.1.0",
-  "homepage": "https://sarveshh.github.io/walletnode/",
+  "homepage": "https://sarveshh.github.io/walletnode",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -33,12 +33,12 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
