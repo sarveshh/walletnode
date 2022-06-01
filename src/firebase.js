@@ -4,14 +4,13 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const app = firebase.initializeApp({
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGE_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyAaFY-3RwCqkSPpeJlA-YwngT2l-U3S-GM",
+  authDomain: "walletnode-819e6.firebaseapp.com",
+  projectId: "walletnode-819e6",
+  storageBucket: "walletnode-819e6.appspot.com",
+  messagingSenderId: "572485137093",
+  appId: "1:572485137093:web:5d870e63e7b6f2d02e76ac",
+  measurementId: "G-Z1TZMDTQ8G",
 });
 
 export const socialMediaAuth = (provider) => {
